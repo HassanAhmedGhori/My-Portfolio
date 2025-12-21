@@ -1,0 +1,176 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+nav{
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: antiquewhite;
+}
+.back{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 5px;
+    gap: 5px;
+}
+button{
+    padding: 10px 25px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: 1.10em;
+    border: none;
+    border-radius: 5px;
+}
+.sound{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 5px;
+    gap: 5px;
+    box-sizing: border-box;
+}
+.text{
+    font-weight: bold;
+    font-size: 1em;
+    font-family: sans-serif;
+}
+.logo{
+    margin-top: 2px;
+}
+.main{
+    background-color: aqua;
+    width: 100vw;
+    height: 90vh;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+}
+.box{
+    width: 20%;
+    height: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.but{
+    width: auto;
+    text-align: center;
+    height: auto;
+    padding: 10px;
+    text-transform: uppercase;
+    border: 2px solid transparent;
+    font-size: 1.5em;
+    color: transparent;
+}
+.box:hover .but {
+    color: rgba(255, 255, 255, 0.75);
+    border: 2px solid rgba(255, 255, 255, 0.75);
+    border-radius: 10px;
+}
+
+.box1{
+    background-color: #fea47f;
+}
+.box2{
+    background-color: #25ccf7;
+}
+.box3{
+    background-color: #eab543;
+}
+.box4{
+    background-color: #eab543;
+}
+.box5{
+    background-color: #cad3c8;
+}
+.box6{
+    background-color: #f97f51;
+}
+.box7{
+    background-color: #1b9cfc;
+}
+.box8{
+    background-color: #f8efba;
+}
+.box9{
+    background-color: #58b19f;
+}
+.box10{
+    background-color: #2c3a47;
+}
+.box11{
+    background-color: #b33771;
+}
+.box12{
+    background-color: #3b3b98;
+}
+.box13{
+    background-color: #fd7272;
+}
+.box14{
+    background-color: #9aecdb;
+}
+.box15{
+    background-color: #d6a2e8;
+}
+.box16{
+    background-color: #6d214f;
+}
+.box17{
+    background-color: #182c61;
+}
+.box18{
+    background-color: #fc427b;
+}
+.box19{
+    background-color: #bdc581;
+}
+.box20{
+    background-color: #82589f;
+}
+@media screen and (max-width: 500px) {
+    .text{
+        display: none;
+    }
+    .but{
+    width: auto;
+    text-align: center;
+    height: auto;
+    padding: 10px;
+    text-transform: uppercase;
+    border: 2px solid transparent;
+    font-size: 1em;
+    color: transparent;
+}
+}
+@media screen and (max-width: 400px) {
+    button{
+    padding: 5px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: 0.75em;
+    border: none;
+}
+.but{
+    width: auto;
+    text-align: center;
+    height: auto;
+    padding: 5px;
+    text-transform: uppercase;
+    border: 2px solid transparent;
+    font-size: 0.75em;
+    color: transparent;
+}
+}

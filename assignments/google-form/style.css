@@ -1,0 +1,236 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+}
+.page{
+    background-color: rgb(194, 191, 191);
+    display: flex;
+    width: 100vw;;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+.main{
+    width: 70%;
+    height: auto;
+    background-color: white;
+    border-radius: 30px;
+    box-sizing: border-box;
+    display: flex;
+    padding: 30px 15px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.box-left{
+    align-self: self-start;
+    display: flex;
+    height: auto;
+    width: 45%;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    margin-top: 10px;
+}
+img{
+    height: 50px;
+    width: 50px;
+}
+h1{
+    font-size: 2.25em;
+    font-weight: 500;
+    color: rgb(70, 69, 69);
+}
+p{
+    font-size: 1em;
+    font-weight: 500;
+    color: rgb(97, 94, 94);
+    margin-top: -5PX;
+}
+.box-right{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 45%;
+    justify-content: space-evenly;
+    align-items: end;
+    margin-top: 60px;
+    margin-left: 20px;
+}
+input{
+    height: 50px;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border-radius: 5px;
+    border: 1px solid rgb(65, 64, 64);
+    margin-top: 30px;
+}
+button{
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    font-size: 1em;
+    /* height: 20%; */
+    width: 80px;
+    border-radius: 30px;
+    padding: 12px;
+    text-align: center;
+    border: 1px solid transparent;
+    margin-top: 30px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 70%;
+    height: auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+.one{
+    display: flex;
+}
+.two{
+    display: flex;
+    gap: 20px;
+}
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .page{
+        background-color: white;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 20px 0px;
+        overflow: hidden;
+    }
+    .main{
+        width: 100%;
+        height: auto;
+        padding: 0;
+    }
+    .footer{
+        width: 100%;
+        height: auto;
+        font-size: 0.75em;
+        margin-bottom: 10px;
+    }
+}
+@media screen and (max-width: 425px) {
+    .main {
+        flex-direction: column;
+        width: 95%;
+        padding: 20px 15px;
+        border-radius: 15px;
+    }
+
+    .box-left,
+    .box-right {
+        width: 100%;
+        align-items: start;
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    .box-right {
+        align-items: start;
+        margin-left: 0;
+    }
+
+    input {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    button {
+        width: 25%;
+        padding: 12px;
+        font-size: 1em;
+        align-self: flex-end;
+    }
+
+    .footer {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        gap: 10px;
+        font-size: 0.8em;
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+
+    .two {
+        gap: 15px;
+    }
+
+    h1 {
+        font-size: 1.8em;
+    }
+
+    p {
+        font-size: 0.9em;
+    }
+}
+@media screen and (max-width: 320px) {
+    .main {
+        flex-direction: column;
+        width: 95%;
+        padding: 20px 15px;
+        border-radius: 15px;
+    }
+
+    .box-left,
+    .box-right {
+        width: 100%;
+        align-items: start;
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    .box-right {
+        align-items: start;
+        margin-left: 0;
+    }
+
+    input {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    button {
+        width: 25%;
+        padding: 12px;
+        font-size: 1em;
+        align-self: flex-end;
+    }
+
+    .footer {
+        flex-direction: column;
+        align-items: start;
+        justify-content: space-between;
+        gap: 40px;
+        font-size: 0.8em;
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+
+    .two {
+        gap: 15px;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    p {
+        font-size: 0.9em;
+    }
+}

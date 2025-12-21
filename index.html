@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <!-- navbar Start -->
+    <nav class="hassanone navbar bg-info navbar-expand-lg" data-bs-theme="dark">
+        <div class="container-fluid px-3 px-md-5 ">
+            <a class="navbar-brand playfair-display-hassan fs-2 navlogo" href="#" >HASSAN <span
+                    class="navlogo ms-2">AHMED</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link menubar google-sans-menu" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link menubar google-sans-menu" aria-current="page" href="#Assignments">My
+                            Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link menubar google-sans-menu" aria-current="page" href="#">About me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link menubar google-sans-menu" href="#">Contact me</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- navbar End -->
+
+    <!-- Info section start-->
+    <div class="hassaninfo bg-body-tertiary container-fluid d-flex flex-column align-items-center justify-content-center mt-5 gap-4 gap-md-5 p-3 p-sm-5"
+        id="hassaninfo">
+        <h1 class="info-heading text-info mt-5 bbh-bartle-regular fs-1">HASSAN <span class="name">AHMED</span> </h1>
+        <p class="text-start d-none d-lg-block text-md-center fs-5">I am learning programming from SMIT and currently
+            focusing on <br> front-end web development. I work with HTML, CSS, Bootstrap, and JavaScript <br> to build
+            responsive and modern websites.</p>
+        <p class="ps-3 text-start d-lg-none text-md-center">I am learning programming from SMIT and currently focusing
+            on front-end web development. I work with HTML, CSS, Bootstrap, and JavaScript to build responsive and
+            modern websites.</p>
+        <div class="container mb-0 mb-md-5 buttonsection px-0 px-md-5 d-flex flex-column flex-md-row gap-3">
+            <a href="#Assignments"
+                class="main-button main-button-1 btn py-2 fs-4 w-100 border border-info text-info">Assignments</a>
+            <a href="#Personal"
+                class="main-button main-button-2 btn py-2 fs-4 w-100 border border-info bg-info text-white">Personal
+                Projects</a>
+        </div>
+    </div>
+    <!-- Info section End-->
+
+    <!-- Assignments card section Start-->
+    <div class="container-fluid assignments-card-sec d-flex bg-body-tertiary d-flex flex-column justify-content-center gap-5"
+        id="Assignments">
+        <h1 class="mt-5 bbh-bartle-regular fs-2 mx-auto text-info">My Assignments</h1>
+        <div class="cardsection d-flex flex-row justify-content-center flex-wrap flex gap-5 mb-5">
+            <div class="mycards card-one p-5 d-flex flex-column align-items-center gap-5 border border-info">
+                <h1 class="fs-3">HTML</h1>
+                <div class="dropdown">
+                    <a class="btn btn-info dropdown-toggle text-white" href="#" data-bs-toggle="dropdown">
+                        HTML Assignments
+                    </a>
+                    <ul class="dropdown-menu">
+
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle">
+                                Learn HTML WIth Hassan
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item"
+                                        href="https://hassanahmedghori.github.io/Learn-html-with-hassan/"
+                                        target="_blank">Live Link</a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://github.com/HassanAhmedGhori/Learn-html-with-hassan"
+                                        target="_blank">Repo Link</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="mycards card-two p-5 d-flex flex-column align-items-center gap-5 border border-info">
+                <h1 class="fs-3">CSS</h1>
+                <div class="dropdown">
+                    <a class="btn btn-info dropdown-toggle text-white" href="#" data-bs-toggle="dropdown">
+                        CSS Assignments
+                    </a>
+                    <ul class="dropdown-menu">
+
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="./assignments/apple-assignment-/index.html"
+                                target="_blank">
+                                Apple Clone
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item"
+                                        href="https://hassanahmedghori.github.io/apple-assignment-/"
+                                        target="_blank">Live Link</a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://github.com/HassanAhmedGhori/apple-assignment-"
+                                        target="_blank">Repo Link</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="./assignments/color-palette/index.html"
+                                target="_blank">
+                                Color Palette
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="https://hassanahmedghori.github.io/color-palette/"
+                                        target="_blank">Live Link</a></li>
+                                <li><a class="dropdown-item" href="https://github.com/HassanAhmedGhori/color-palette"
+                                        target="_blank">Repo Link</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle"
+                                href="./assignments/css-2nd-web-page-assignment/index.html" target="_blank">
+                                Random Webpage
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item"
+                                        href="https://hassanahmedghori.github.io/css-2nd-web-page-assignment/"
+                                        target="_blank">Live Link</a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://github.com/HassanAhmedGhori/css-2nd-web-page-assignment"
+                                        target="_blank">Repo Link</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="./assignments/google-form/index.html"
+                                target="_blank">
+                                Google Form
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item"
+                                        href="https://hassanahmedghori.github.io/first-css-assignment/"
+                                        target="_blank">Live Link</a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://github.com/HassanAhmedGhori/first-css-assignment"
+                                        target="_blank">Repo Link</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mycards card-three p-5 d-flex flex-column align-items-center gap-5 border border-info">
+                <h1 class="fs-3">JavaScript</h1>
+                <div class="dropdown">
+                    <a class="btn btn-info dropdown-toggle text-white" href="#" data-bs-toggle="dropdown">
+                        JavaScript Assignments
+                    </a>
+                    <ul class="dropdown-menu">
+
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle">
+                                Sorry No Assignment
+                            </a>
+                            <!-- <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="" target="_blank">No content</a></li>
+                                <li><a class="dropdown-item" href="" target="_blank">Repo Link</a></li>
+                            </ul> -->
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container mb-0 mb-md-5 buttonsection px-0 px-md-5 d-flex flex-column flex-md-row gap-3">
+            <a href="#Personal"
+                class="main-button main-button-2 btn py-2 fs-4 w-100 bg-info border border-info text-white">See My
+                Personal Projects</a>
+            <a href="#" class="main-button main-button-1 btn py-2 fs-4 w-100 border border-info text-info">Go Back</a>
+        </div>
+    </div>
+    <!-- Assignments card section End-->
+
+
+    <!-- Personal Projects card section Start-->
+
+    <div class="container-fluid personal-pro-sec d-flex bg-body-tertiary mt-5 d-flex flex-column justify-content-center gap-5"
+        id="Personal">
+        <h1 class="mt-5 bbh-bartle-regular fs-2 mx-auto text-info">Personal Projects</h1>
+        <div class="cardsection d-flex flex-row justify-content-center flex-wrap gap-5 mb-5">
+            <div class="mycards card-two p-5 d-flex flex-column align-items-center gap-5 border border-info">
+                <h1 class="fs-3">My Projects</h1>
+                <div class="dropdown">
+                    <a class="btn btn-info dropdown-toggle text-white" href="#" data-bs-toggle="dropdown">
+                        See My Projects
+                    </a>
+                    <ul class="dropdown-menu">
+
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="./personal projects/ess-display/index.html" target="_blank"> ESS Clone </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="https://hassanahmedghori.github.io/ess-display/" target="_blank">Live Link</a></li>
+                                <li><a class="dropdown-item" href="https://github.com/HassanAhmedGhori/ess-display" target="_blank">Repo Link</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container mb-0 mb-md-5 buttonsection px-0 px-md-5 d-flex flex-column flex-md-row gap-3">
+            <a href="#Assignments" class="main-button main-button-1 btn py-2 fs-4 w-100 border border-info text-info">See My Assignments</a>
+            <a href="#" class="main-button main-button-2 btn py-2 fs-4 w-100 border border-info bg-info text-white">Back To Home</a>
+        </div>
+    </div>
+
+    <!-- Personal Projects card section End-->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

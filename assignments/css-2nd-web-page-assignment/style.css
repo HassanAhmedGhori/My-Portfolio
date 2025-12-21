@@ -1,0 +1,225 @@
+body{
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+*{
+    box-sizing: border-box;
+}
+.page{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./media/427597.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 40px;
+    padding: 2% 5%;
+    overflow: auto;
+}
+.nav{
+    min-width: 100%;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.658);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    padding: 30px 0;
+    width: 20%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.logo:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+.menu{
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: end;
+
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 40px;
+    margin: 0;
+    padding: 0;
+}
+li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: auto;
+    padding: 20px 20px;
+}
+li:hover{
+    background-color: white;
+}
+.contant{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%;
+    height: auto;
+    max-height: 54%;
+    box-sizing: border-box;
+}
+.box{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    width: 30%;
+    height: auto;
+    padding: 25px 30px 30px 30px;
+    gap: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.box:hover{
+    background-color: rgba(247, 245, 245, 0.699);
+}
+.image1{
+    width: 80px;
+    height: 80px;
+    background-image: url(./media/airplan.png);
+    background-position: center center;
+    background-size: cover;
+    align-self: center;
+
+}
+.image2{
+    width: 80px;
+    height: 80px;
+    background-image: url(./media/bus.png);
+    background-position: center center;
+    background-size: cover;
+    align-self: center;
+
+}
+.image3{
+    width: 80px;
+    height: 80px;
+    background-image: url(./media/car.png);
+    background-position: center center;
+    background-size: cover;
+    align-self: center;
+
+}
+.big{
+    font-size: 2em;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.small{
+    font-size: 1.25em;
+    text-transform: capitalize;
+    text-align: justify;
+    word-spacing: 0.25;
+    line-height: 1.5em;
+}
+.text{
+    font-size: 1.25em;
+    text-transform: capitalize;
+    text-align: justify;
+    word-spacing: 0.25;
+    line-height: 1.5em;
+}
+@media screen and (max-width: 1024px) {
+    .logo{
+    padding: 30px 0;
+    width: 26%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .menu{
+    width: 60%;
+    height: auto;
+    display: flex;
+    justify-content: end;
+    }
+    ul{
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+    }
+}
+@media screen and (max-width: 768px) {
+    .logo{
+        display: none;
+    }
+    .menu{
+        width: 100%;
+        justify-content: center;
+    }
+    .box{
+        padding: 25px 20px 30px 20px;
+    }
+    .big{
+        font-size: 1.5em;
+    }
+}
+@media screen and (max-width: 425px) {
+    .page{
+        padding: 20px;
+    }
+    .text{
+        display: none;
+    }
+    .nav{
+        width: 100%;
+        height: auto;
+        padding: 0%;
+    }
+    .logo{
+    display: none;
+    }
+    .menu{
+        width: 100%;
+        padding: 5px;
+    }
+    ul{
+        gap: 13px;
+        justify-content: center;
+    }
+    li{
+    padding: 20px 15px;
+    width: 12%;
+    }
+    .box{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 320px) {
+    li{
+    padding: 20px 12px;
+    }
+}
