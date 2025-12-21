@@ -97,10 +97,27 @@ body {
   min-height: 100vh;
 }
 #Assignments,
-#Personal {
+#Personal, #About {
   scroll-margin-top: 20px;
 }
-
+.image{
+  /* background-position: center center; */
+  background-image: url(./withcar.jpg);
+  background-position: 80% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+.image:hover{
+  background-image: url(./1000211037.jpg);
+  /* background-position: center center; */
+  background-position: 80% 50%;
+  background-repeat: no-repeat;
+  box-shadow: 3px 2px 5px 5px #567379, -3px 2px 5px 5px #567379;
+  background-size: cover;
+}
 
 /* Ai se liya howa dropdown button (Starting) */
 
@@ -134,3 +151,41 @@ body {
 }
 
 /* Ai se liya howa dropdown button (Ending) */
+
+
+.personal-data{
+  border-radius: 20px;
+  transition:
+  transform 0.35s ease,
+  box-shadow 0.35s ease;
+  cursor: pointer;
+  width: 400px;
+}
+.personal-data:hover{
+  transform: translateY(-12px) scale(1.03);
+  box-shadow: 0 18px 20px rgba(13, 202, 240, 0.35), 0 0 10px rgba(13, 202, 240, 0.4);
+}
+.mycards:hover{
+  transform: translateY(-12px) scale(1.03);
+  box-shadow: 0 18px 20px rgba(13, 202, 240, 0.35), 0 0 10px rgba(13, 202, 240, 0.4);
+}
+.about-card{
+  text-shadow: -2px -4px 2px rgb(41, 27, 168);
+}
+.footer-sec{
+  height: auto;
+  background-color: rgb(78, 78, 78);
+}
+.footer-sec-logo{
+  /* background-position: center center; */
+  background-image: url(./withcar.jpg);
+  background-position: 80% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.footer-sec-icon{
+  border-top:  1px solid white;
+}
