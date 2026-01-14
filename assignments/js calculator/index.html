@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Calculator</title>
+
+</head>
+
+<body>
+    <div class="body">
+        <div class="contaner">
+            <div class="textdiv">
+                <span class="heading1">Welcome to My Calculator</span>
+                <span class="heading2">Created By: Hassan Ahmed</span>
+                <p>This calculator is designed as part of my programming assignment.
+                    It performs basic arithmetic operations including addition, subtraction,
+                    multiplication and division. The purpose of this project is to demonstrate
+                    my understanding of JavaScript functions, DOM manipulation and event handling.</p>
+            </div>
+            <div class="calculatordiv">
+                <div class="screen">
+                    <span id="screenone" class="screenone"></span>
+                    <span id="screentwo" class="screentwo"></span>
+                </div>
+                <div class="divone buttondiv">
+                    <button onClick="editscreen('C')" class="removebutton" style="background-color: darksalmon;">Clear</button>
+                    <button onClick="editscreen('Delet')" class="removebutton" style="background-color: cornflowerblue;">Delet</button>
+                </div>
+                <div class="divtwo buttondiv">
+                    <button onClick="editscreen(1)">1</button>
+                    <button onClick="editscreen(2)">2</button>
+                    <button onClick="editscreen(3)">3</button>
+                    <button onClick="editscreen('/')">/</button>
+                </div>
+                <div class="divthree buttondiv">
+                    <button onClick="editscreen(4)">4</button>
+                    <button onClick="editscreen(5)">5</button>
+                    <button onClick="editscreen(6)">6</button>
+                    <button onClick="editscreen('*')">X</button>
+                </div>
+                <div class="divonefour buttondiv">
+                    <button onClick="editscreen(7)">7</button>
+                    <button onClick="editscreen(8)">8</button>
+                    <button onClick="editscreen(9)">9</button>
+                    <button onClick="editscreen('-')">-</button>
+                </div>
+                <div class="divonefive buttondiv">
+                    <button onClick="editscreen('.')">.</button>
+                    <button onClick="editscreen(0)">0</button>
+                    <button onClick="calculate()">=</button>
+                    <button onClick="editscreen('+')">+</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <script src="./app.js"></script>
+</body>
+
+</html>

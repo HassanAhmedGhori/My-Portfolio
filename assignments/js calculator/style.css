@@ -1,0 +1,103 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.body{
+    height: 100vh;
+    width: 100vw;
+    background-color: azure;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contaner{
+    /* background-color: blanchedalmond; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    gap: 10px;
+}
+.textdiv{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+    width: 100%;
+    padding: 5px;
+    border-radius: 20px;
+    /* background-color: darkgray; */
+    
+}
+.heading1{
+    font-size: 30px;
+    text-decoration: underline double;
+    font-weight: bold;
+    align-self: center;
+}
+.heading2{
+    font-size: 20px;
+    font-weight: bold;
+    align-self: center;
+}
+p{
+    font-size: 30px;
+    text-align: justify;
+    line-height: 50px;
+}
+.calculatordiv{
+    background-color: gray;
+    border-radius: 15px;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+}
+.screen{
+    background-color: white;
+    border-radius: 20px;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    align-items: center;
+    justify-content: space-around;
+}
+.screenone{
+    align-self: flex-end3;
+    font-size: 30px;
+    height: auto;
+}
+.screentwo{
+    align-self: flex-end3;
+    font-size: 50px;
+}
+.buttondiv{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+button{
+    width: 30%;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 10px;
+    margin: 10px;
+}
+.removebutton{
+    width: 120px;
+}
+
+
+@media screen and (max-width: 800px) {
+    .textdiv{
+        display: none;
+    }
+}
